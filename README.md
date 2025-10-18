@@ -52,6 +52,16 @@ The project was developed as part of a **Python Frameworks Assignment**, followi
    
  --- 
  
-### ⚙️ Challenges & Choices - Some `publish_time` entries were invalid; handled with `errors='coerce'`. - Dropped high-missing columns to simplify analysis. - Used basic word tokenization (no stopword removal or stemming). --- 
-### 🚀 Next Steps - Add stopword removal and text preprocessing for improved NLP. - Analyze top authors and collaboration networks. - Add more filters and charts in Streamlit (journal, keywords, authors). # cord19-data-explorer.   
+## ⚙️ Challenges & Choices 
+- Some `publish_time` entries were invalid; handled with `errors='coerce'`.
+- Dropped high-missing columns to simplify analysis.
+- Used basic word tokenization (no stopword removal or stemming).
+
+--- 
+
+## 🚀 Next Steps 
+- Add stopword removal and text preprocessing for improved NLP. 
+- Analyze top authors and collaboration networks.
+- Add more filters and charts in Streamlit (journal, keywords, authors).    
+
 
