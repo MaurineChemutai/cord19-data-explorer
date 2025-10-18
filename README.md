@@ -41,3 +41,17 @@ The project was developed as part of a **Python Frameworks Assignment**, followi
    ```bash
    git clone https://github.com/MaurineChemutai/cord19-data-explorer.git
    cd cord19-data-explorer
+
+## 🧠 Reflection & Notes 
+**🧩 What I Did **
+ - Loaded `metadata.csv`, inspected shape & types.
+ - Cleaned data: converted `publish_time`, extracted `year`, filled missing values.
+ - Dropped columns with >90% missing data.
+ - Built visualizations for publications, journals, and word frequencies. 
+ -  Created smaller test datasets for faster iteration.
+   
+ --- 
+ 
+### ⚙️ Challenges & Choices - Some `publish_time` entries were invalid; handled with `errors='coerce'`. - Dropped high-missing columns to simplify analysis. - Used basic word tokenization (no stopword removal or stemming). --- 
+### 🚀 Next Steps - Add stopword removal and text preprocessing for improved NLP. - Analyze top authors and collaboration networks. - Add more filters and charts in Streamlit (journal, keywords, authors). # cord19-data-explorer.   
+
